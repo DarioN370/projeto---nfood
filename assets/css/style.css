@@ -12,7 +12,7 @@
 
     --cor-fonte-principal: #ffffff;
     --cor-fonte-secundaria: #0176C0;
-    --cor-fonte-terciaria: #000000;
+    --cor-fonte-terciaria: #0176C0;
 
     --peso-fonte-negrito: bold;
     --peso-fonte-leve: 500;
@@ -79,6 +79,29 @@
     font-weight: var(--peso-fonte-negrito);
     font-size: 1.75rem;
     padding: 10px;
+}
+
+.conteudo__terceiro{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 104px;
+    background: var(--cor-fonte-terciaria);
+}
+
+.sobre__produtos{
+    display: flex;
+}
+
+.sobre__produtos__conteudo{
+    font-family: var(--fonte-principal);
+    font-size: 3.25rem;
+    padding: 45px;
+    color: var(--cor-fonte-principal);
+    font-weight: var(--peso-fonte-normal);
+}
+
+.imagem{
+
 }
 
 
