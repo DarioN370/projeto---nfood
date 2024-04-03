@@ -54,8 +54,6 @@
     margin-top: 13px;
 }
 
-
-
 .conteudo__segundo{
     max-width: 1200px;
     margin: 0 auto;
@@ -98,6 +96,33 @@
     padding: 45px;
     color: var(--cor-fonte-principal);
     font-weight: var(--peso-fonte-normal);
+}
+
+
+.conteudo__quarto{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 104px;
+    background: var(--cor-fonte-secundaria);
+}
+
+.localização{
+    display: flex;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+}
+
+.texto__destaque{
+    padding: 45px;
+    font-family: var(--fonte-principal);
+    font-weight: var(--peso-fonte-normal);
+    color: var(--cor-fonte-principal);
+    font-size: 3rem;
 }
 
 
