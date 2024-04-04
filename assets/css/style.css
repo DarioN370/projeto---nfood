@@ -198,6 +198,10 @@ footer{
     gap: 25px;
 }
 
+.itens__lista__footer__container a{
+    text-decoration: none;
+}
+
 .redes__sociais{
     margin-top: 150px;
     background: var(--cor-fonte-secundaria);
@@ -281,16 +285,36 @@ footer{
 
     .conteudo__quarto{
         width: 100%;
+        height: 60rem;
     }
 
     .localização{
         display: flex;
         flex-direction: column;
     }
+
+    .mapa__img img{
+        width: 100vw;
+    }
     
     .textos{
         display: flex;
         flex-direction: column;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .mapa__site__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    #copy{
+        text-align: center;
     }
 
 
