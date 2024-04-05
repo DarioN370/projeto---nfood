@@ -76,12 +76,28 @@
     border-radius: 8px;
 }
 
-.card__item p{
+.card__item__azul{
+    color: var(--cor-fonte-principal);
     text-align: center;
     font-family: var(--fonte-principal);
     font-weight: var(--peso-fonte-negrito);
     font-size: 1.75rem;
-    padding: 10px;
+    padding: 3px;
+    border: 1px solid var(--cor-fonte-secundaria);
+    border-radius: 6px;
+    background: var(--cor-fonte-secundaria);
+}
+
+.card__item__verde{
+    color: var(--cor-fonte-principal);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: var(--peso-fonte-negrito);
+    font-size: 1.75rem;
+    padding: 3px;
+    border: 1px solid var(--cor-fonte-terciaria);   
+    border-radius: 6px;
+    background: var(--cor-fonte-terciaria);
 }
 
 .conteudo__terceiro{
@@ -137,16 +153,11 @@
 .localização{
     display: flex;
     height: 598px;
+    align-items: center;
 }
 
-.mapa__img img{
+.localização img{
     height: 100%;
-}
-
-.textos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .texto__destaque{
@@ -164,9 +175,12 @@
 }
 
 .botao__agendar{
-    display: inline-block;
+    cursor: pointer;
     background: var(--cor-fonte-terciaria);
+    color: var(--cor-fonte-principal);
+    font-weight: var(--peso-fonte-normal);
     border-radius: 6px;
+    border: 0;
     padding: 15px;
     margin-left: 40px;
     font-size: 1.75rem;
