@@ -73,11 +73,6 @@
     align-items: center;
 }
 
-.card__item{
-    border: 4px solid var(--cor-fonte-terciaria);
-    border-radius: 8px;
-}
-
 .card__item__azul{
     color: var(--cor-fonte-principal);
     text-align: center;
