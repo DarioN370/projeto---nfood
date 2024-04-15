@@ -275,18 +275,23 @@ footer{
         flex-direction: column;
     }
 
+
     .sobre__produtos__textos{
         display: flex;
         flex-direction: column;
+        text-align: center;
+        background: url(../imgs/macaImg.png) no-repeat center center;
+        padding: 30px;
     }
 
     .sobre__produtos__conteudo{
         text-align: start;
         font-size: 1.5rem;
+        background: #0176C0D7;
     }
 
     .imagem__maca img{
-        width: 100vw;
+        display: none;
     }
 
     .conteudo__segundo{
